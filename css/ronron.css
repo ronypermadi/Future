@@ -1,0 +1,407 @@
+
+.clearfix{
+  clear: both;
+}
+
+/* MAINTENANCE CSS */
+.maintenance{
+  width: 100%;
+  margin: 0 auto;
+  background-image: url('../img/maintenance.jpg');
+  background-size: cover;
+}
+.logo-maintenance{
+  margin: 50px 0 20px 50px;
+}
+.logo-maintenance img{
+  width: 300px;
+}
+.hero-body-maintenance {
+	flex-grow: 1;
+	flex-shrink: 0;
+	padding: 2rem 1.5rem
+}
+.maintenance-title{
+  font-size: 40px;
+  text-align: center;
+  font-weight: bolder;
+  color: #fff;
+margin-left: 50px;
+float: left;
+}
+.maintenance-content{
+  font-size: 20px;
+  text-align: center;
+  font-weight: bolder;
+  color: #fff;
+  margin-top: 50px;
+  margin-left: 50px;
+  float: left;
+}
+.maintenance-footer{
+  font-size: 20px;
+  text-align: left;
+  font-weight: bolder;
+  color: #fff;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+.maintenance-sosmed a{
+  font-size: 50px;
+  text-align: left;
+  font-weight: bolder;
+  color: #020F24;
+  margin-top: 30px;
+  margin-right: 5px;
+  margin-left: 40px;
+}
+/* END MAINTENANCE CSS */
+/* CUSTOMER SERVICE CSS */
+.logo-cs{
+  margin: 3% 35%;
+}
+.logo-cs img{
+  width: 350px;
+}
+.search-cs{
+  margin: 1% 30% 5% 30%;
+}
+.search-bar {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+.search-bar * {
+  border: none;
+}
+.search-bar .input-search,
+.search-bar .input-search-active {
+  width: 80%;
+  padding: 10px;
+  text-align: left;
+  border : 1px solid black;
+  outline-color: black;
+  font-size: 16px;
+  font-family: Arial,FontAwesome important;
+}
+
+.search-button {
+  background-color: black;
+  border : 1px solid black;
+  padding: 11px;
+  color: #fafafa;
+  width: 15%;
+}
+
+.search-button:hover {
+  background: #333;
+  border : 1px solid #333;
+  color: #fff;
+}
+.faq-title{
+  color: #000;
+  font-size: 20px;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.faq-content{
+  color: #000;
+  font-size: 75px;
+  text-align: center;
+  float: left;
+  margin: 2% 5%;
+}
+.faq-content p{
+  color: #000;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 0px;
+}
+.btn-faq{
+  border: 5px solid black;
+  border-radius: 5px;
+  background-color: #000;
+  font-size: 20px;
+  margin: 3% 45%;
+  color: #fff;
+}
+.btn-faq:hover{
+  background-color: #333;
+  border: 5px solid #333;
+  border-radius: 5px;
+}
+.block-cs{
+  background-color: #020F24;
+  display: block;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+.block-cs p{
+  color: #fff;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.block-cs .btn-cs{
+  border: 5px solid black;
+  border-radius: 5px;
+  background-color: #000;
+  font-size: 20px;
+  margin-left: 10px;
+  color: #fff;
+}
+.block-cs .btn-cs:hover{
+  background-color: #333;
+  border: 5px solid #333;
+  border-radius: 5px;
+}
+/* END CUSTOMER SERVICE CSS */
+/* LOGIN CSS */
+.login{
+  margin: 3% 25% 5% 25%;
+}
+.login-img{
+ width: 50%;
+ float: left;
+ /* margin: 2% 0; */
+}
+.register-img{
+ width: 50%;
+ float: right;
+ /* margin: 2% 0; */
+}
+.login-text{
+  margin: 3% 10%;
+  font-size: 20px;
+  text-align: center;
+}
+.login-text a{
+  color: black;
+  text-decoration: none;
+}
+.login-form {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.login-form * {
+  border: none;
+}
+.login-form .input-search,
+.login-form .input-search-active {
+  width: 80%;
+  margin: 20px auto;
+  padding: 10px;
+  text-align: left;
+  border : 1px solid black;
+  border-radius: 10px;
+  outline-color: black;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif, FontAwesome;
+}
+
+.login-button {
+  background-color: black;
+  border : 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  color: #fafafa;
+  font-size: 20px;
+  text-transform: uppercase;
+  width: 35%;
+  margin: 20px auto;
+}
+
+.login-button:hover {
+  background-color: #333;
+  border : 1px solid #333;
+  color: #fff;
+}
+.login-sosmed a{
+  font-size: 50px;
+  text-align: left;
+  font-weight: bolder;
+  color: #020F24;
+  margin: 0 55px;
+}
+.login-line{
+  margin: 0 auto;
+  width: 80%;
+border: 5px solid #020F24;
+}
+/* END LOGIN CSS */
+/* SHOPPING CART CSS */
+.block-cart{
+  background-color: #003763;
+  display: block;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+.block-cart p{
+  color: #fff;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.block-cart i{
+  color: #fff;
+  text-align: center;
+  font-size: 60px;
+}
+.cart{
+  margin: 3% 15% 5% 15%;
+}
+.cart-title{
+  font-size: 20px;
+float: left;
+}
+.product-detail .cart-tools{
+  font-size: 30px;
+  float: right;
+}
+.cart-tools a{
+  text-decoration: none;
+  color: #000;
+}
+.cart-line{
+  clear: both;
+  border: 3px solid black;
+}
+.cart-product{
+  width: 100%;
+  margin: 0 auto;
+}
+.product-img{
+  width: 38%;
+  float: left;
+  border: 2px solid #ccc;
+}
+.product-img img{
+  width: 100%;
+  height: 200px;
+}
+.product-detail{
+  width: 58%;
+  float: right;
+}
+.product-detail p{
+  font-size: 14px;
+  text-align: justify;
+}
+.btn-qty{
+  background-color: black;
+  border : 1px solid black;
+  border-radius: 5px;
+  padding: 1px;
+  color: #fafafa;
+  font-size: 20px;
+  text-transform: uppercase;
+  width: 10%;
+  margin: 5px auto;
+}
+.btn-qty:hover {
+  background-color: #333;
+  border : 1px solid #333;
+  color: #fff;
+}
+.input-qty{
+  width: 10%;
+  margin: 5px auto;
+  padding: 1px;
+  text-align: center;
+  border : 1px solid black;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.product-detail h1{
+  font-size: 24px;
+  color: darkred;
+}
+.cart-total{
+  float: right;
+  width: 30%;
+  display: inline-block;
+}
+.cart-total h1{
+  text-align: center;
+  font-size: 24px;
+}
+.total{
+  color: darkred;
+}
+.cart-total .btn-cart{
+  background-color: darkorange;
+  border : 1px solid darkorange;
+  border-radius: 10px;
+  padding: 10px;
+  color: #fafafa;
+  font-size: 20px;
+  text-transform: uppercase;
+  width: 100%;
+  margin: 5px auto;
+}
+.cart-total .btn-cart:hover {
+  background-color: #333;
+  border : 1px solid #333;
+  color: #fff;
+}
+/* END SHOPPING CART CSS */
+/* SINGLE PRODUCT CSS */
+.image.is-full {
+	width: 100%;
+  height: auto;
+}
+.single-detail h1{
+  color: darkred;
+  font-size: 36px;
+}
+.single-line{
+  border: 2px solid #000;
+}
+.select-qty{
+  width: 50%;
+  padding: 5px;
+  text-align: center;
+  font-size: 14px;
+  border: 1px solid #000;
+}
+.btn-single{
+  background-color: black;
+  border : 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  color: #fafafa;
+  font-size: 16px;
+  text-transform: uppercase;
+  width: 40%;
+  margin: 5% 2%;
+  float: left;
+}
+.btn-single:hover {
+  background-color: #333;
+  border : 1px solid #333;
+  color: #fff;
+}
+.desc-img{
+ width: 50%;
+ float: left;
+ margin: 5% 0;
+}
+.spek-img{
+ width: 50%;
+ float: right;
+ margin: 5% 0;
+}
+.single-text{
+  text-align: justify;
+  font-size: 16px;
+}
+.single-title{
+  text-align: left;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+/* END SINGLE PRODUCT CSS */

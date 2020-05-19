@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.js"></script>
+    <title>Invoice</title>
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <h1 class="title">FUTURE</h1>
+                </div>
+                <div class="column has-text-right">
+                    <h1 class="title">INVOICE #0781</h1>
+                    <p class="subtitle">
+                        <p>Issued Septembe 18, 2019</p>
+                        <p>Payment due Septembe 21, 2019</p>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr class="is-divider is-mt-min"></hr>
+    <section class="section is-paddingless">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-3">
+                    <p class="title is-5 is-marginless">FROM :</p>
+                    <p class="subtitle is-6 has-text-weight-light is-marginless">Your Company</p>
+                    <p class="subtitle is-6 has-text-weight-light is-marginless">123 Main Street</p>
+                    <p class="subtitle is-6 has-text-weight-light is-marginless">Unknown USA</p>
+                </div>
+                <div class="column is-3">
+                    <p class="title is-5 is-marginless">TO :</p>
+                    <p class="subtitle is-6 has-text-weight-light is-marginless">Client Name</p>
+                    <p class="subtitle is-6 has-text-weight-light is-marginless">423 Main Street</p>
+                    <p class="subtitle is-6 has-text-weight-light is-marginless">Unknown USA</p>
+                </div>
+                <div class="column">
+                    <p class="title is-5 is-marginless">DESCRIPTION :</p>
+                    <p class="subtitle is-6 has-text-weight-light is-marginless has-text-justified">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                        been the industry's standard dummy text ever since the 1500s, when an unknown printer took</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr class="is-divider">
+    <section class="section is-mt-min-2">
+        <div class="container">
+            <div class="columns ">
+                <div class="column">
+                    <table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">
+                        <thead class="">
+                            <tr>
+                                <th class="table has-text-centered">Items</th>
+                                <th class="table has-text-centered">Qty</th>
+                                <th class="table has-text-centered">Unit Price</th>
+                                <th class="table has-text-centered">Subtotal</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Website administrator template</td>
+                                <td>12 hours</td>
+                                <td>$ 20</td>
+                                <td>$ 240</td>
+                            </tr>
+                            <tr>
+                                <td>Logo design</td>
+                                <td>1 hours</td>
+                                <td>$ 2</td>
+                                <td>$ 2</td>
+                            </tr>
+                            <tr>
+                                <td>Convert Adobe XD to HTML Document</td>
+                                <td>4 hours</td>
+                                <td>$ 16</td>
+                                <td>$ 64</td>
+                            </tr>
+                            <tr>
+                                <td>Website maintenance</td>
+                                <td>4 hours</td>
+                                <td>$ 30</td>
+                                <td>$ 120</td>
+                            </tr>
+                        </tbody>
+                        <tfoot class="">
+                            <tr>
+                                <th class="table has-text-centered" colspan="3">Unit Price</th>
+                                <th class="table ">$ 696</th>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section is-mt-min is-paddingless">
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <h1 class="title is-4">Payment Method :</h1>
+                    <div class="columns">
+                        <div class="column is-1">
+                            <figure class="image">
+                                <img src="img/128x128.png">
+                            </figure>
+                        </div>
+                        <div class="column is-1">
+                            <figure class="image">
+                                <img src="img/128x128.png">
+                            </figure>
+                        </div>
+                        <div class="column is-1">
+                            <figure class="image">
+                                <img src="img/128x128.png">
+                            </figure>
+                        </div>
+                        <div class="column is-1">
+                            <figure class="image">
+                                <img src="img/128x128.png">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-4 has-text-right">
+                    <p class="title is-5">Note.</p>
+                    <p class="subtitle is-italic is-lowercase is-7">Contrary to popular belief, Lorem Ipsum is not
+                        simply random text. It has roots in a piece of classical Latin literature from 45 BC</p>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <style type="text/css" media="print">
+        @page {size: landscape;}
+    </style>
+    <script>
+        $("figure").click(function(){
+            window.print();
+        })
+    </script>
+</body>
+</html>
